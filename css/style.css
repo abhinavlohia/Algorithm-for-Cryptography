@@ -1,0 +1,44 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: grey !important;
+}
+form{
+  width: 1200px;
+  margin-top: 200px;
+}
+.Original{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+}
+textarea.Original{
+  background-color: #ffffe6 !important;
+  resize: none;
+  border-radius: 8px;
+}
+textarea.Encrypted{
+  background-color: #ffebe6 !important;
+  resize: none;
+  border-radius: 8px;
+}
+textarea.Decrypted{
+  background-color: #d9ffcc !important;
+  resize: none;
+  border-radius: 8px;
+}
+.btn{
+  width: 120px;
+  border-radius: 8px !important;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+.btn-success{
+  margin-left: 330px;
+}
+.btn-danger {
+  float: right;
+  margin-right: 330px;
+}
